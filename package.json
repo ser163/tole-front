@@ -1,0 +1,51 @@
+{
+  "name": "@webank/fes-template",
+  "version": "0.4.7",
+  "description": "fes项目模版",
+  "main": "index.js",
+  "scripts": {
+    "build": "fes build",
+    "dev": "fes dev",
+    "test": "fes test:unit --single-run",
+    "cover": "fes test:unit --single-run --coverage",
+    "lint": "eslint -c ./.eslintrc.js --fix  --ext .js,.vue,.fes ./src"
+  },
+  "keywords": [
+    "管理端",
+    "fes",
+    "fast",
+    "easy",
+    "strong"
+  ],
+  "files": [
+    ".eslintrc.js",
+    ".gitignore",
+    "fes.config.js",
+    "karma.config.js",
+    "webpack.config.js",
+    "mock.js",
+    "package.json",
+    "README.md",
+    "/src",
+    "/test"
+  ],
+  "repository": {
+    "type": "git"
+  },
+  "author": "harrywan qlin",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/test-utils": "^1.1.0",
+    "@webank/eslint-config-webank": "^0.1.4",
+    "@webank/fes-cli": "^0.4.6",
+    "chai": "^4.2.0",
+    "csp-html-webpack-plugin": "^4.0.0"
+  },
+  "dependencies": {
+    "@antv/data-set": "^0.11.7",
+    "@antv/g2": "^4.0.15",
+    "@webank/fes-core": "^0.4.5",
+    "@webank/fes-ui": "^0.4.10"
+  },
+  "gitHead": "efd790b7de23ab8cd4340b4601576b6880d4d6dd"
+}
