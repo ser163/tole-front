@@ -48,6 +48,10 @@ npm run dev
 ```bash
 npm run build
 ```
+### 默认用户名和密码
+  默认Email：l3478830@163.com
+  默认密码：admin
+  也可以选择使用用户模式登陆，用户名是：admin 密码：admin
 
 修改里面相应配置。`TOKEN` 是测试环境下的通用key，可以自行设置。
 `SITE_URL` 为站点的外部名称。此地址是为了用户下载使用。
